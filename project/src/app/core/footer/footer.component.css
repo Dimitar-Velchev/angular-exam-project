@@ -1,0 +1,30 @@
+/* footer */
+
+footer {
+    background-color: rgb(42, 90, 248);
+    min-height: 10vh;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+  }
+  footer ul {
+    display: flex;
+    flex: 2;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 20px;
+    flex: 4;
+  }
+
+  .text{
+      padding-left: 10px;
+  }
