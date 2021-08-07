@@ -11,7 +11,7 @@ export class RegisterComponent  {
   constructor() { }
 
 
-  register(registerData: NgForm){
-    console.log(registerData);
+  register(form: NgForm){
+    console.log(form);
   }
 }
